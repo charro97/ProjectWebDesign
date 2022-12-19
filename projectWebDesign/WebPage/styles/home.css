@@ -1,0 +1,224 @@
+body {
+    font-family: 'Raleway', sans-serif;     /*Raleway Regular 400*/
+    margin: 0px;
+    padding: 0px;
+    background-color: #f2f2f2;
+    color: #242922;
+}
+
+/*Cabecera de la  web que incluye logo y menú navegación*/
+
+
+header {
+    background-color: #fdfdfd;
+}
+
+
+.cabecera {
+    display: flex;
+    width: 100%;
+    padding-top: 1%;
+}
+
+
+.logo {
+    flex-grow: 0;
+    height: 20%; 
+}
+
+.menu {
+    flex-grow: 5;
+}
+
+.enlaces {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    padding-top: 1%;
+
+}
+
+.empieza {
+    background-color: blueviolet;
+    margin-top: -1%;
+    padding: 8px 10px;
+    border-radius: 4px;
+    font-size: large;
+
+}
+
+.empieza a {
+    color: white;
+}
+
+li {
+    list-style: none;
+    font-weight: bold;
+}
+
+a {
+    color: #242922;
+    
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+/*Fondo principal de la web*/
+
+.fondo {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    
+    background-image: url(../img/home5.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255,30%);
+    width: 100%;
+    margin: 0 auto;
+    height: 400px;
+    padding: 0px;
+
+}
+
+.fondo h1 {
+    margin-left: 10%;
+    margin-top: 7%;
+    color: #242922;
+    text-shadow: 0 0 2px #234f21;
+
+}
+
+.fondo .feliz {
+    margin-left: 30%;
+    font-size: 40px;
+}
+
+h1 {
+    color: #234f21;
+}
+
+
+/* Estilo para la aplicación de los planes de alimentación*/
+
+.titulo {
+    text-align: center;
+    font-size: 2em;
+}
+
+
+.planes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 8%;
+    /*background-color: coral;*/
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    width: 25%;
+    border-radius: 2px;
+}
+
+.plan img {
+    width: 80%;
+    margin-top: 8%;
+    border-radius: 2px;
+}
+
+.plan p {
+    padding: 0px;
+    margin: 3% 10%;
+    text-align: justify;
+}
+
+.plan h4 {
+    color: #42ab49;
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+
+
+
+
+/* Estilo para el tratamiento de problemas alimenticios*/
+
+
+
+.tratamientos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 8%;
+    /*background-color: coral;*/
+}
+
+.tratamiento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    width: 30%;
+    border-radius: 2px;
+}
+
+.tratamiento img {
+    width: 80%;
+    margin-top: 8%;
+    border-radius: 2px;
+}
+
+.tratamiento p {
+    padding: 0px;
+    margin: 3% 10%;
+    text-align: justify;
+}
+
+.tratamiento h4 {
+    color: #42ab49;;
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+
+
+/*Estilo aplicado al pie de la web*/
+
+.pie {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    background-color: #e2e2e2;
+}
+
+.pie article {
+    width: 25%;
+    text-align: center;
+}
+
+.pie article h4 {
+    color: #234f21;
+    font-size: 18px;
+}
+
+.pie article ul li{
+    text-align: start;
+}
+
+.email, .redes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pie article img {
+    width: 60px;
+}
+
